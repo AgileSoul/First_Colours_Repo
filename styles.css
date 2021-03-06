@@ -5,6 +5,7 @@ body
 .flex
 {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     width: 100%;
 }
@@ -15,16 +16,29 @@ header
 }
 #h3Cabeza
 {
-    align-self: center;
+    padding-left: 15px;
+    align-self: flex-start;
     color: whitesmoke;
 }
 section
 {
-    height: 600px;
+    height: 466px;
     background-color: #03045e;
 }
 #h2Centro
 {
     color: whitesmoke;
     align-self: center;
+}
+footer
+{
+    width: 100%;
+    height: 100px;
+    background-color: #fdc500;
+}
+#h4Pie
+{
+    padding-right: 15px;
+    align-self: flex-end;
+    color: whitesmoke;
 }
