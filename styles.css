@@ -2,29 +2,29 @@ body
 {
     margin: 0px;
 }
-section
+.flex
 {
-    width: 100%;
-    height: 600px;
-    background-color: #03045e;
     display: flex;
     justify-content: center;
-}
-#h2Centro
-{
-    color: whitesmoke;
-    align-self: center;
+    width: 100%;
 }
 header
 {
-    width: 100%;
     height: 100px;
     background-color: #d00000;
-    display: flex;
-    justify-content: center;
 }
 #h3Cabeza
 {
     align-self: center;
     color: whitesmoke;
+}
+section
+{
+    height: 600px;
+    background-color: #03045e;
+}
+#h2Centro
+{
+    color: whitesmoke;
+    align-self: center;
 }
